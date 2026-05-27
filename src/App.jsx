@@ -130,7 +130,7 @@ export default function App() {
               </div>
 
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif font-bold leading-tight">
-                Transformamos la Ley en tu <span className="bg-gradient-to-r from-[#EBB813] to-[#C49200] bg-clip-text text-transparent">Mejor Defense</span>
+                Transformamos la Ley en tu <span className="bg-gradient-to-r from-[#EBB813] to-[#C49200] bg-clip-text text-transparent">Mejor Defensa</span>
               </h1>
 
               <p className="text-gray-300 font-sans text-base md:text-lg font-light leading-relaxed">
@@ -176,10 +176,10 @@ export default function App() {
                     </span>
                   </div>
                   <h3 className="text-3xl md:text-4xl font-serif font-bold text-white leading-tight">
-                    Ricardo Javier Vladimir <br />
+                    Ricardo <br />
                     <span className="bg-gradient-to-r from-[#EBB813] to-[#C49200] bg-clip-text text-transparent">Maldonado Espada</span>
                   </h3>
-                  <p className="text-gray-400 font-sans text-sm mt-2 italic">Abogado Postulante en Materia Penal | Cédula Profesional: 7657964</p>
+                  <p className="text-gray-400 font-sans text-sm mt-2 italic">Abogado Postulante en Materia Penal | Cédula Profesional:7687864 </p>
                 </div>
 
                 <div className="space-y-4 text-gray-300 font-sans leading-relaxed text-sm font-light">
@@ -222,8 +222,8 @@ export default function App() {
                     "Investigación complementaria"
                   ].map((servicio, index) => (
                     <div key={index} className="flex items-start gap-2 group">
-                      <CheckCircle size={14} className="text-[#003B7A] mt-1 group-hover:text-[#EBB813] transition-colors" />
-                      <span className="text-gray-400 text-[13px] font-sans group-hover:text-white transition-colors">{servicio}</span>
+                      <CheckCircle size={14} className="text-[#EBB813] mt-1  transition-colors" />
+                      <span className="text-white-400 text-[13px] font-sans group-hover:text-white transition-colors">{servicio}</span>
                     </div>
                   ))}
                 </div>
@@ -372,7 +372,7 @@ export default function App() {
 
         {/* PIE DE PÁGINA */}
         <footer className="bg-[#0B1325] border-t border-gray-800 py-8 text-center text-xs text-gray-500 font-sans relative">
-          <p>© 2026 MALDONADO FIRMA LEGAL. Todos los derechos reservados. Cédula Prof. Dirección General: 7657964.</p>
+          <p>© 2026 MALDONADO FIRMA LEGAL. Todos los derechos reservados. Cédula Prof. Dirección General: 7687864.</p>
           <p className="mt-1 text-gray-600">Firma Legal de Defensa Penal y Alta Litigación. Ciudad de México.</p>
           
           {/* BOTÓN FLOTANTE DE WHATSAPP PARA EMERGENCIAS PENALES */}
